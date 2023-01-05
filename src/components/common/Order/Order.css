@@ -1,0 +1,49 @@
+.order{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+    width: 100%;
+}
+.order-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.order-img {
+    width: 70px;
+    
+    margin-right: 10px;
+}
+.order-img .img{
+    width: 50px;
+    height: 100%;
+    box-sizing: initial;
+}
+.order-content{
+    display: flex;
+    flex-direction: column;
+}
+.delete-icon{
+    position: absolute;
+    color: rgb(236, 80, 69);
+    right: 20px;
+    cursor: pointer;
+    bottom: 10px;
+    transition: color, transform 500ms ease;
+}
+.order-link{
+    color: black;
+}
+
+.delete-icon:hover{
+    color: rgb(187, 15, 3);
+    transform: scale(1.5);
+}
+.order-text{
+    font-size: 14px;
+}
+.order-link{
+    font-size: 14px;
+}

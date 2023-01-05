@@ -1,0 +1,30 @@
+
+.what-can-you { 
+    padding: 20px 0 93px 0;
+    background: rgb(249,248,228);
+    background: linear-gradient(90deg, rgb(245, 244, 232) 0%, rgb(231, 231, 229) 35%, rgb(243, 236, 230) 100%);
+ }
+.what-can-you__container { 
+    padding: 0 40px;
+}
+
+.what-can-you__content {
+    display:grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 30px;
+    justify-items: center;
+ }
+.what-can-you__title { 
+    font-family: 'GraphikLCG-Semibold', sans-serif;
+          font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #706e6e;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.header-fon .img{
+    height: 200px;
+}
